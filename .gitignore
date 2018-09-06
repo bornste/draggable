@@ -22,3 +22,4 @@ coverage/
 
 # 'cause we are all yarny and stuff
 package-lock.json
+/.vs
