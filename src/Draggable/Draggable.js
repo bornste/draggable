@@ -1,6 +1,6 @@
 import {closest} from 'shared/utils';
 
-import {Announcement, Focusable, Mirror, Scrollable} from './Plugins';
+import {/*Announcement, Focusable,*/ Mirror, Scrollable} from './Plugins';
 
 import Emitter from './Emitter';
 import {MouseSensor, TouchSensor} from './Sensors';
@@ -69,7 +69,7 @@ export default class Draggable {
    * @property {Scrollable} Plugins.Scrollable
    * @type {Object}
    */
-  static Plugins = {Announcement, Focusable, Mirror, Scrollable};
+  static Plugins = {/*Announcement, Focusable,*/ Mirror, Scrollable};
 
   /**
    * Draggable constructor.
